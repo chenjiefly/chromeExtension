@@ -1,0 +1,17 @@
+{
+    "name": "My First Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "The first extension that I made.",
+    "icons": {
+        "48": "icon32.png"  // 扩展程序列表中显示，键48代表图片位置
+    },
+    "browser_action": {
+        "default_icon": "icon48.png",  // 浏览器工具栏中显示的图标文件
+        "default_title": "我的首例",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "http://api.flickr.com/"
+    ]
+}
