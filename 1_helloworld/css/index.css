@@ -1,0 +1,10 @@
+body {
+    width: 150px;
+}
+.title {
+    text-decoration: underline;
+}
+.btn {
+    color: red;
+    cursor: pointer;
+}
